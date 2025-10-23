@@ -6,7 +6,6 @@ class BadgeStore {
   async Create(serialNumber, version) {
     console.log(`Created badge with SerialNumber: ${serialNumber}, Version: ${version}`);
 
-    // Generate a pseudo ID using current timestamp
     const id = Date.now();
 
     return {

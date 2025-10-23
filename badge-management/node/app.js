@@ -20,8 +20,6 @@ class Handler {
     }
   }
 }
-
-// Initializes and returns an Express app (the common pattern)
 function createApp() {
   const app = express();
   const handler = new Handler();
